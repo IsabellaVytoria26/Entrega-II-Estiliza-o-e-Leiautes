@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore os projetos sociais da ONG Exemplo: doe ou voluntarie-se.">
+    <meta name="keywords" content="projetos sociais, voluntariado, doações">
+    <title>ONG Exemplo - Projetos</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="icon" href="assets/img/logo-ong.png" type="image/png">
+</head>
+<body>
+    <header class="grid-container">
+        <nav aria-label="Navegação principal" class="nav">
+            <img src="assets/img/logo-ong.png" alt="Logo da ONG Exemplo" class="logo">
+            <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="projetos.html" aria-current="page">Projetos</a>
+                    <ul class="submenu">
+                        <li><a href="#edu">Educação</a></li>
+                        <li><a href="#sust">Sustentabilidade</a></li>
+                    </ul>
+                </li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="grid-container">
+        <section id="projetos" class="col-12" aria-labelledby="titulo-projetos">
+            <h1 id="titulo-projetos">Nossos Projetos Sociais</h1>
+            <div class="cards-container">
+                <article class="card col-12 sm:col-6 lg:col-4">
+                    <span class="badge">Educação</span>
+                    <img src="assets/img/projeto1.jpg" alt="Imagem do projeto de educação" loading="lazy">
+                    <h2>Projeto Educação para Todos</h2>
+                    <p>Oferecemos aulas gratuitas para crianças em comunidades carentes.</p>
+                    <a href="cadastro.html" class="btn">Voluntarie-se</a>
+                    <a href="#" class="btn">Doe Agora</a>
+                </article>
+                <article class="card col-12 sm:col-6 lg:col-4">
+                    <span class="badge">Sustentabilidade</span>
+                    <img src="assets/img/projeto2.jpg" alt="Imagem do projeto de sustentabilidade" loading="lazy">
+                    <h2>Projeto Sustentabilidade Verde</h2>
+                    <p>Plantio de árvores e conscientização ambiental.</p>
+                    <a href="cadastro.html" class="btn">Voluntarie-se</a>
+                    <a href="#" class="btn">Doe Agora</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="grid-container">
+        <p>&copy; 2023 ONG Exemplo. Todos os direitos reservados.</p>
+        <p>Contato: contato@ongexemplo.com</p>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

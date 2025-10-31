@@ -1,0 +1,20 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sistema de Design: Variáveis Customizadas */
+:root {
+    /* Paleta de Cores (8+ cores) */
+    --primary-100: #e3f2fd; /* Azul claro */
+    --primary-500: #2196f3; /* Azul primário */
+    --primary-700: #1976d2; /* Azul escuro */
+    --secondary-100: #f3e5f5; /* Roxo claro */
+    --secondary-500: #9c27b0; /* Roxo secundário */
+    --neutral-100: #f5f5f5; /* Cinza claro */
+    --neutral-300: #e0e0e0; /* Cinza médio */
+    --neutral-700: #616161; /* Cinza escuro */
+    --success: #4caf50; /* Verde sucesso */
+    --error
